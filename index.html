@@ -1,0 +1,91 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <title>free codecamp survey form</title>
+  </head>
+  <body>
+    <header>
+      <h1>freeCodeCamp Survey Form</h1>
+      <h2>Thank you for taking the time to help us improve the platform</h2>
+    </header>
+    <main>
+        <form class="main-div">
+          <div class="div-row">
+            <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required/>
+          </div>
+          <div class="div-row">
+            <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" required/>
+          </div>
+          <div class="div-row">
+            <label for="age">Age (optional)</label>
+        <input type="text" id="age" placeholder="Age" optional/>
+          </div>
+          <div class="div-row">
+            <label for="role">Which option best describes your current role?</label>
+            <select id="role">
+              <option value="0">Select Current Role</option>
+              <option value="1">Student</opiton>
+              <option value="2">Full Time Job</opiton>
+              <option value="3">Full Time Learner</opiton>
+              <option value="4">Prefer Not to say</opiton>
+              <option value="5">Other</opiton>
+            </select>
+          </div>  
+        <div class="div-row div-radio">
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <input type="radio" id="definitely" name="recommend" value="Definitely">
+          <label for="definitely">Definitely</label>
+          <input type="radio" id="maybe" name="recommend" value="May be">
+          <label for="maybe">May be</label>
+          <input type="radio" id="notsure" name="recommend" value="Not Sure">
+          <label for="notsure">Not Sure</label>     
+        </div>
+        <div class="div-row">
+            <label for="favourite">What is your favorite feature of freeCodeCamp?</label>
+            <select id="role">
+              <option value="0">Select an Option</option>
+              <option value="1">Challenges</opiton>
+              <option value="2">Community</opiton>
+              <option value="3">Open Source</opiton>
+              <option value="4">Projects</opiton>
+            </select>
+          </div>
+          <div class="div-row div-check">
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <input type="checkbox" id="item1" name="item1" value="Front-end Projects">
+            <label for="item1">Front-end Projects</label>
+            <input type="checkbox" id="item2" name="item2" value="Back-end Projects">
+            <label for="item2">Back-end Projects</label>
+            <input type="checkbox" id="item3" name="item3" value="Front-end Projects">
+            <label for="item3">Data Visualisation</label>
+            <input type="checkbox" id="item4" name="item4" value="Challenges">
+            <label for="item1">Challenges</label>
+            <input type="checkbox" id="item5" name="item5" value="Open Source Community">
+            <label for="item5">Open Source Community</label>
+            <input type="checkbox" id="item6" name="item6" value="Gitter help rooms">
+            <label for="item6">Gitter help rooms</label>
+            <input type="checkbox" id="item7" name="item7" value="Videos">
+            <label for="item7">Videos</label>
+            <input type="checkbox" id="item8" name="item8" value="City Meetups">
+            <label for="item8">City Meetups</label>
+            <input type="checkbox" id="item9" name="item9" value="Wiki">
+            <label for="item9">Wiki</label>
+            <input type="checkbox" id="item10" name="item10" value="Forum">
+            <label for="item10">Forum</label>
+            <input type="checkbox" id="item11" name="item11" value="Additional Contents">
+            <label for="item11">Additional Contents</label>
+</div>
+      <div class="div-row">
+        <p>Any comments or suggestions?</p>
+        <textarea id="suggestion" placeholder="Enter your comment here..." ></textarea>
+</div>  
+      <div class="div-row">
+       <input type="submit" value="Submit">
+</div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
